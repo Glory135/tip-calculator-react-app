@@ -6,9 +6,9 @@ import './style.css'
 
 function App() {
     const [bill, setBill] = useState(0);
-    const [people, setPeople] = useState(1)
-    const [result, setResult] = useState(0)
-    const [result2, setResult2] = useState(0)
+    const [people, setPeople] = useState(1);
+    const [result, setResult] = useState(0);
+    const [result2, setResult2] = useState(0);
 
     const onClick = (per) => {
         const div = per / 100;
